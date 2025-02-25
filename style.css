@@ -48,6 +48,181 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Your CSS Below **/
 
+body{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   width: 100%;
+   font-family:var(--fs-base);
+   font-size: var(--font-paragraph);
+   font-weight: var(--fw-regular);
+   font-weight: var(--fw-bold);
+   font-weight: var(--fw-black);
+   background-color: var(--clr-paleBlue);
+   width: var(--width-desktop);
+   margin: 450px; 
+  
+}
+
+.result{
+  background-color: var(--gra-lightRoyalBlue);
+  background-color: var(--gra-lightSlateBlue);
+  color: var(--clr-white);
+  border-radius: 20px;
+  padding: 50px;
+  width: 350px;
+  height: 500px;
+  
+  
+}
+
+h2{
+  text-align: center;
+  color: var(--clr-lightLavender);  
+}
+
+.circle{
+  text-align: center;
+  background-color: var(--gra-persianBlue);
+  background-color: var(--gra-violetBlue);
+  border-radius: 50%;
+  font-size: 50px;
+  margin: 20px 20px 20px 60px;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  
+}
+
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p{
+  text-align: center;
+  justify-content: center;
+  color: var(--clr-lightLavender);
+  font-size: 15px;
+}
+
+
+
+
+
+.summary{
+  background-color: var(--clr-white);
+  border-radius: 0 20px 20px 0;
+  padding: 50px;
+  width: 350px;
+  height: 500px;
+}
+
+.summaryheading{
+  margin-bottom: 30px;
+  color:var( --clr-darkGrayBlue);
+  font-size: 22px;
+  
+}
+
+.reaction{
+  width: 100%;
+  background-color: rgb(250, 236, 245);
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+  display: flex;
+  padding: 15px;
+  
+
+    
+}
+.reaction-color{
+  color: var(--clr-lightRed);
+  
+}
+.reaction-statistic{
+  color: var( --clr-darkGrayBlue) ;
+}
+
+
+.memory{
+  width: 100%;
+  background-color: rgb(247, 247, 242);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px;
+    
+
+}
+.memory-color{
+  color: var(--clr-orangeYellow);
+} 
+
+.memory-statistic{
+  color: var( --clr-darkGrayBlue)
+
+}
+
+.verbal{
+  width: 100%;
+  background-color: rgb(231, 247, 247);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px;  
+
+}
+.verbal-color{
+  color: var( --clr-greenTeal);
+}
+
+.verbal-statistic{
+  color: var( --clr-darkGrayBlue)
+
+}
+
+.visual{
+  width: 100%;
+  background-color:rgb(231, 224, 245);
+  border-radius: 10px;
+  text-align: center; 
+  margin-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px; 
+
+}
+.visual-color{
+  color: var(--clr-cobaltBlue);
+}
+
+.visual-statistic{
+  color: var( --clr-darkGrayBlue)
+
+}
+
+
+button{
+  background-color: var(--clr-darkGrayBlue);
+  color: var(--clr-paleBlue);
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+@media (max-width: 375px){
+  body{
+    flex-direction: column;
+  }
+}
+
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
