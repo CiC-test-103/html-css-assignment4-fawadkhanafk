@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 /** Your CSS Below **/
 
 body{
+
    display: flex;
    flex-wrap: wrap;
    justify-content:center;
@@ -72,8 +73,7 @@ body{
   padding: 50px;
   width: 350px;
   height: 500px;
-  
-  
+   
 }
 
 h2{
@@ -108,22 +108,19 @@ p{
 }
 
 
-
-
-
 .summary{
   background-color: var(--clr-white);
   border-radius: 0 20px 20px 0;
   padding: 50px;
   width: 350px;
   height: 500px;
+  
 }
 
 .summaryheading{
   margin-bottom: 30px;
   color:var( --clr-darkGrayBlue);
-  font-size: 22px;
-  
+  font-size: 22px; 
 }
 
 .reaction{
@@ -134,9 +131,7 @@ p{
   margin-bottom: 20px; 
   display: flex;
   padding: 15px;
-  
-
-    
+      
 }
 .reaction-color{
   color: var(--clr-lightRed);
@@ -156,7 +151,6 @@ p{
   display: flex;
   padding: 15px;
     
-
 }
 .memory-color{
   color: var(--clr-orangeYellow);
@@ -204,7 +198,6 @@ p{
 
 .visual-statistic{
   color: var( --clr-darkGrayBlue)
-
 }
 
 
@@ -216,6 +209,7 @@ button{
   margin-top: 20px;
   padding: 5px;
 }
+
 
 @media (max-width: 375px){
   body{
